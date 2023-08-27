@@ -1,0 +1,36 @@
+#article
+{
+  display: flex;
+}
+
+#container
+{
+  display: flex;
+  background-color:	#1F75FE;
+  padding: 8px;
+  flex-direction: column;
+}
+
+#myBtn
+{
+  padding: 12px 20px;
+  margin: 4px 0;
+  border: 3px solid #FF7538;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+#display
+{
+  margin: 2px 0 2px 0;
+  border: 2px solid #FF7538;
+  box-sizing: border-box;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
