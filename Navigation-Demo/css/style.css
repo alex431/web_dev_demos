@@ -7,7 +7,6 @@ body
 {
     overflow: hidden;
     background: #FF7518;
-    
 }
 
 #nav1 > .nav-links 
@@ -24,7 +23,6 @@ body
 
 #nav1 > .nav-links > li
 {
-  
   padding: 7px 4px;
 }
 
@@ -47,8 +45,7 @@ body
       flex-direction: column;
       cursor: pointer;
       padding: 5px 3px;
-      top: 3px;
-      
+      top: 3px;     
     }
       
     .hamburger > span
