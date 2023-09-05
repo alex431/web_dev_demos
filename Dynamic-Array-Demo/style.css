@@ -1,0 +1,25 @@
+.table_1 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+   
+}
+
+.table_header
+{
+    border: 1px solid black;
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.table_cell
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+
+
+
+
