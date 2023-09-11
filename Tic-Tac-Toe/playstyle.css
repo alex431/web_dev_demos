@@ -1,7 +1,7 @@
-
 body
 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -23,12 +23,22 @@ h1
   
 }
 
+.board_flex
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .board
 {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 100px 100px 100px;
     width: 300px;
-    height: 200px;;
+    height: 200px;
+    margin-bottom: 125px;
    
   }
   
@@ -39,6 +49,16 @@ h1
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    box-sizing: border-box; 
+    width: 100px;
+    height: 100px;
+  }
+
+  .player-X, .player-O 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .player-X
@@ -48,13 +68,34 @@ h1
 
   .player-O 
   {
-    color: blue; /* Change the color for O */
-}
+    color: blue; 
+  }
 
-  
   p
   {
     font-size: 18px;
     text-align: center;
   }
+
+  #reset
+  {
+   display: block;
+   text-align: center;
+   align-items: center;
+  }
+
+  @media (max-width: 768px) 
+  {
+
+   
+    .board {
+      margin: 0 auto 125px auto;
+    }
+  
+    .space {
+      font-size: 20px; 
+      padding: 5px; 
+    
+    }
+  } 
 
