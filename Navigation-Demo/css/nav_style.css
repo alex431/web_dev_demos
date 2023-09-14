@@ -1,14 +1,16 @@
+/* CSS for body and header */
 body
 {
-    margin: 0px;
+    margin: 0px; /* Remove default margin */
 }
 
 #top-header
 {
     overflow: hidden;
-    background: #FF7518;
+    background: #FF7518; /* Set a background color for the header */
 }
 
+/* CSS for navigation links */
 #nav1 > .nav-links 
 {
   display: flex;
@@ -34,7 +36,7 @@ body
 
 #nav1 > .nav-links li:hover
 {
-  background-color: #a45ee5;
+  background-color: #a45ee5; /* Change background color on hover */
 }
 
 @media screen and (max-width: 768px) 
@@ -54,14 +56,15 @@ body
       height: 4px;
       background-color: black;
       margin: 1px 0;  
-      transition: background-color 0.3s ease-in-out;
+      transition: background-color 0.3s ease-in-out; /* Smooth transition */
     }
 
     #nav1 > .nav-links
     {
-      display: none;
+      display: none; /* Hide the navigation links by default */
     }     
     
+    /* Styles for the navigation when it's active (visible) */
     #nav1.active 
     {
       display: flex; 
@@ -77,7 +80,7 @@ body
 
     #nav1.active .hamburger > span
     {
-      background-color: transparent; 
+      background-color: transparent; /* Hide the hamburger menu bars */
       transition: background-color 0.3s ease-in-out;
     }
     
@@ -93,7 +96,7 @@ body
 
     #nav1.active > .nav-links > li > a
     {
-      color: #E34234;
+      color: #E34234; /* Change link color when active */
     }
 
 }
