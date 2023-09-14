@@ -8,11 +8,12 @@
 </head>
 <body>
 <div id="game_case" class="case">
-    <h1>Tic-Tac-Toe</h1>
-    <div id="turn_status">Player X's turn</div>
+    <h1>Tic-Tac-Toe</h1> <!-- Heading for the game -->
+    <div id="turn_status">Player X's turn</div>  <!-- Display whose turn it is -->
     
-    <div class="board_flex">
-        <div id="paper" class="board">
+    <div class="board_flex"> <!-- Flex container for game board -->
+        <div id="paper" class="board"> <!-- Game board container -->
+          <!-- Individual cells of the game board -->
             <div id="cell_1" class="space"></div>
             <div id="cell_2" class="space"></div>
             <div id="cell_3" class="space"></div>
@@ -23,7 +24,7 @@
             <div id="cell_8" class="space"></div>
             <div id="cell_9" class="space"></div>
         </div>
-        <button id="reset">Reset the Board</button>
+        <button id="reset">Reset the Board</button> <!-- Button to reset the game -->
     </div>
 </div>    
 <script src="gameplay.js"></script>

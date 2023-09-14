@@ -1,10 +1,11 @@
 body
 {
+  /* Center content vertically and horizontally */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh; /* Full viewport height */
     margin: 0;
 }
 
@@ -23,6 +24,7 @@ h1
   
 }
 
+/* Styling for the game board */
 .board_flex
 {
   display: flex;
@@ -34,6 +36,7 @@ h1
 
 .board
 {
+  /* Create a 3x3 grid for the game board */
     display: grid;
     grid-template-columns: 100px 100px 100px;
     width: 300px;
@@ -54,6 +57,7 @@ h1
     height: 100px;
   }
 
+  /* Styling for player X and player O */
   .player-X, .player-O 
   {
     display: flex;
@@ -84,18 +88,18 @@ h1
    align-items: center;
   }
 
+  /* Responsive design for smaller screens */
   @media (max-width: 768px) 
   {
-
-   
-    .board {
+    .board 
+    {
       margin: 0 auto 125px auto;
     }
   
-    .space {
+    .space 
+    {
       font-size: 20px; 
       padding: 5px; 
-    
     }
   } 
 
